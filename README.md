@@ -15,7 +15,12 @@ Set your device in development mode, follow instructions and enable all needed o
 To instantiate App on device follow
 
 ```
-npm run start-dev
+npm install
+npm postinstall
+```
+
+```
+npm run start
 ```
 
 In another console you should run
@@ -24,10 +29,10 @@ In another console you should run
 npm run build
 ```
 
-After compile complete you may close first console. Then run
+After compile complete you may close first console and stop process in first one. Then run
 
 ```
-run android
+npm run android
 ```
 
 Now App is running on your device.
